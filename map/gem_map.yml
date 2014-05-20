@@ -1,0 +1,11 @@
+---
+module:
+  name: "ngLoader"
+uis:
+  - name: $loader
+    type: service
+actions:
+  javascript:
+    include?: true
+  module:
+    include?: true
